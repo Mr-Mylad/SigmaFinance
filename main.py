@@ -14,7 +14,7 @@ def comp(PROMPT, MaxToken=50, outputs=3):
         # model name used here is text-davinci-003
         # there are many other models available under the 
         # umbrella of GPT-3
-        model="text-davinci-003",
+        model="text-davinci-002",
         # passing the user input 
         prompt=PROMPT,
         # generated output can have "max_tokens" number of tokens 
